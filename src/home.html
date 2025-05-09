@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./register.css">
+    <title>SKOLKOVO</title>
+</head>
+<body class="body">
+    <section class="main_section">
+        <video class="video-home_section" src="./img/1118390_4k_Mystery_3840x2160.mp4" autoplay muted loop></video>
+
+        <div class="left-footer">
+            <a class="left-footer__name-studios" href="./home.html">DPVox</a>
+            <input class="left-footer__menu-btn" type="button" onclick="openNav()">
+            <div class="footer-links">
+                <span class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-vk'></i></a>
+                </span>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-telegram'></i></a>
+                </div>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-whatsapp'></i></a>
+                </div>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-pinterest-alt'></i></a>
+                </div>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home_section">
+            <div class="main-register">
+                <a href="./register.html" class="btn-reg1">Войти</a>
+                <form action="./register.html">
+                    <button class="btn-reg2"></button>
+                </form>
+            </div>
+            <div class="main-title">
+                <div class="title-shell">
+                    <h1 class="title1">DariaPharmaVox: Ваш голос в мире фармации </h1>
+                    <h1 class="title2">Добро пожаловать на DPVox – ваш надежный источник информации о карьере в фармацевтической индустрии. Здесь вы найдете все необходимое для успешного старта и развития в этой увлекательной области.</h1>
+                </div>
+                <div class="line"></div>
+                <div class="subtitle-shell">
+                    <button onclick="open_Btn_1_sub()" class="btn_2_subtitle-shell">Обзоры фармацевтических компаний</button>
+                    <button onclick="open_Btn_2_sub()" class="btn_2_subtitle-shell">Карьерное руководство</button>
+                    <button onclick="open_Btn_3_sub()" class="btn_2_subtitle-shell">Эксклюзивные интервью</button>
+                    <button onclick="open_Btn_4_sub()" class="btn_2_subtitle-shell">Разнообразие фармацевтических сфер</button>
+                    <button onclick="open_Btn_5_sub()" class="btn_2_subtitle-shell">Советы по обучению</button>
+                    <button onclick="open_Btn_6_sub()" class="btn_2_subtitle-shell">Подборка литературы</button>
+                    <button onclick="open_Btn_7_sub()" class="btn_2_subtitle-shell">Анонсы мероприятий</button>
+                </div>
+                <div class="popup_btn_1_sub">
+                    <button onclick="close_Btn_sub()" class="btn_popup_sub">Закрыть</button>
+                    <div>
+                        <h3 class="popup_title_sub">Обзоры фармацевтических компаний</h3>
+                    </div>
+                    <div>
+                        <p class="popup_subtitle_sub">Узнайте об условиях работы, корпоративной культуре и возможностях трудоустройства в ведущих компаниях отрасли.</p>
+                    </div>
+                </div>
+                <div class="popup_btn_2_sub">
+                    <button onclick="close_Btn_sub()" class="btn_popup_sub">Закрыть</button>
+                    <div>
+                        <h3 class="popup_title_sub">Карьерное руководство</h3>
+                    </div>
+                    <div>
+                        <p class="popup_subtitle_sub">Получите советы по построению карьеры в фармации, от выбора специализации до достижения профессиональных вершин.</p>
+                    </div>
+                </div>
+                <div class="popup_btn_3_sub">
+                    <button onclick="close_Btn_sub()" class="btn_popup_sub">Закрыть</button>
+                    <div>
+                        <h3 class="popup_title_sub">Эксклюзивные интервью</h3>
+                    </div>
+                    <div>
+                        <p class="popup_subtitle_sub">Вдохновляющие истории успеха от выпускников факультета фундаментальной медицины МГУ (отделение фармация) и опытных преподавателей.</p>
+                    </div>
+                </div>
+                <div class="popup_btn_4_sub">
+                    <button onclick="close_Btn_sub()" class="btn_popup_sub">Закрыть</button>
+                    <div>
+                        <h3 class="popup_title_sub">Разнообразие фармацевтических сфер</h3>
+                    </div>
+                    <div>
+                        <p class="popup_subtitle_sub">Погрузитесь в мир различных направлений фармации, от разработки лекарств до клинических исследований.</p>
+                    </div>
+                </div>
+                <div class="popup_btn_5_sub">
+                    <button onclick="close_Btn_sub()" class="btn_popup_sub">Закрыть</button>
+                    <div>
+                        <h3 class="popup_title_sub">Советы по обучению</h3>
+                    </div>
+                    <div>
+                        <p class="popup_subtitle_sub">Полезные рекомендации по эффективному обучению и успешному вхождению в выбранную сферу фармации.</p>
+                    </div>
+                </div>
+                <div class="popup_btn_6_sub">
+                    <button onclick="close_Btn_sub()" class="btn_popup_sub">Закрыть</button>
+                    <div>
+                        <h3 class="popup_title_sub">Подборка литературы</h3>
+                    </div>
+                    <div>
+                        <p class="popup_subtitle_sub">Доступ к актуальным и проверенным источникам информации для профессионального роста.</p>
+                    </div>
+                </div>
+                <div class="popup_btn_7_sub">
+                    <button onclick="close_Btn_sub()" class="btn_popup_sub">Закрыть</button>
+                    <div>
+                        <h3 class="popup_title_sub">Анонсы мероприятий</h3>
+                    </div>
+                    <div>
+                        <p class="popup_subtitle_sub">Будьте в курсе последних событий, конференций и семинаров в мире фармации.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="interview_section">
+            <div class="line line__interview"></div>
+            <div class="header-box__interview">
+                <div class="header-box-subtitle__interview">
+                    <a href="./interview.html" class="header-subtitle__interview">INTERNIEW</a>
+                </div>
+                <div class="header-box-title__interview">
+                    <h2 class="header-title__interview">Интервью с выпускниками и преподавателями</h2>
+                    <p class="header-title-bottom__interview">Текст текст текст текст текст текст текст текст текст текст текст текст</p>
+                </div>
+            </div>
+            <div class="main__interview">
+                <div class="name-main__interview">
+                    <p class="name-item__interview">FIO</p>
+                    <p class="name-item__interview">FIO</p>
+                    <p class="name-item__interview">FIO</p>
+                    <p class="name-item__interview">FIO</p>
+                    <p class="name-item__interview">FIO</p>
+                </div>
+                <div class="vidoe-box__interview">
+
+                </div>
+            </div>
+            <div class="line line__interview"></div>
+        </div>
+        <div class="ffff">
+
+        </div>
+        <div class="footer-home-page">
+            <div class="line line__interview line__footer-home-page"></div>
+            <div class="main-box__footer-home-page">
+                <div class="box-left-info__footer-home-page">
+                    <h3 class="title__footer-home-page">Официальный сайт проекта SKOLKOVO</h3>
+                    <div class="links-box__footer-home-page">
+                        <a class="links__footer-home-page" href=""><i class='bx bxl-vk'></i></a>
+                        <a class="links__footer-home-page" href=""><i class='bx bxl-telegram' ></i></a>
+                        <a class="links__footer-home-page" href=""><i class='bx bxl-whatsapp' ></i></a>
+                        <a class="links__footer-home-page" href=""><i class='bx bxl-pinterest-alt' ></i></a>
+                        <a class="links__footer-home-page" href=""><i class='bx bxl-youtube' ></i></a>
+                    </div>
+                </div>
+                <div class="box-right-info__footer-home-page">
+                    <div>
+                        <a class="text-decor__footer" href="./home.html"><h3 class="right-title__footer-hame-page">Главная</h3></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                    </div>
+                    <div>
+                        <a class="text-decor__footer" href="./interview.html"><h3 class="right-title__footer-hame-page">Интервью</h3></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                    </div>
+                    <div>
+                        <a class="text-decor__footer" href=""><h3 class="right-title__footer-hame-page">Фарм компании</h3></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                    </div>
+                    <div>
+                        <a class="text-decor__footer" href=""><h3 class="right-title__footer-hame-page">Рекомендации</h3></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                    </div>
+                    <div> 
+                        <a class="text-decor__footer" href=""><h3 class="right-title__footer-hame-page">Новости</h3></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                    </div>
+                    <div>
+                        <a class="text-decor__footer" href=""><h3 class="right-title__footer-hame-page">Контакты</h3></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                        <a class="text-decor__footer" href=""><p class="right-subtitle__footer-hame-page">Какая-то информация</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line line__interview line__footer-home-page"></div>
+        </div>  
+    </section>
+    <section id="mySidenav" class="menu-section">
+        <div class="left-footer2">
+            <a class="left-footer__name-studios" href="./index.html">DPVox</a>
+            <input class="left-footer__menu-btn-close" type="button" onclick="closeNav()">
+            <div class="footer-links">
+                <span class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-vk'></i></a>
+                </span>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-telegram' ></i></a>
+                </div>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-whatsapp' ></i></a>
+                </div>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-pinterest-alt' ></i></a>
+                </div>
+                <div class="footer-links__shell">
+                    <a class="left-footer-links" href=""><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <video autoplay muted loop id="myVideo">
+                <source src="./img/6471d1b3cb64cd2f91be2120af353b5f.mp4" type="video/mp4">
+            </video>
+            <div class="header">
+                <a href="./register.html" class="btn-reg1">Войти</a>
+                <form action="./register.html">
+                    <button class="btn-reg2"></button>
+                </form>
+            </div>
+            <div class="menu-spisok">
+                <div class="menu-spisok__item1">
+                    <a href="./home.html" class="menu-item"><span class="weight">01<span class="spasing"> </span></span> ГЛАВНАЯ</a>
+                    <a href="./interview.html" class="menu-item"><span class="weight">02<span class="spasing"> </span></span> ИНТЕРВЬЮ</a>
+                    <a href="./farmcomp.html" class="menu-item"><span class="weight">03<span class="spasing"> </span></span> ФАРМ КОМПАНИИ </a>
+                    <a href="" class="menu-item"><span class="weight">04<span class="spasing"> </span></span> РЕКОМЕНДАЦИИ</a>
+                    <a href="" class="menu-item"><span class="weight">05<span class="spasing"> </span></span> НОВОСТИ</a>
+                    <a href="" class="menu-item"><span class="weight">06<span class="spasing"> </span></span> КОНТАКТЫ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/mune.js"></script>
+</body>
+</html>

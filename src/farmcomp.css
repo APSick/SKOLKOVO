@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'LaborUnion';
+    src: url(./font/LaborUnion-Regular.otf), format('opentype');
+}
+
+* {
+    font-family: 'Milan';
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+  body {
+    margin: auto;
+}
+
+.farm-company__section {
+    height: auto;
+}
+
+.title-shell__farmcorp {
+    width: 1350px;
+    padding-left: 250px;
+    height: 200px;
+}
+
+.farm-company__section {
+    padding: 100px 300px 0px 300px;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto;
+    row-gap: 100px;                                                                                                                                                                           
+}
+
+.farm-company-card__box {
+    border: solid #fff 3px;
+    height: 600px;
+    width: 340px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.farm-company__logo-title-box {
+    width: 340px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    column-gap: 40px;
+}
+
+.farm-company-logo__box {
+    width: 50px;
+    height: 50px;
+}
+
+.farm-company__title {
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+}
+
+.farm-company__link {
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    margin: auto;
+    width: 260px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.farm-company__text {
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    margin: auto;
+    width: 260px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+
+
+.next-section {
+    grid-area: q4;
+    height: 100vh;
+}

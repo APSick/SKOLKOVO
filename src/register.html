@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    <div class="header.reg">
+        <h2 class="title-header">DPVox beta</h2>
+        <button onclick="openReg()" class="btn-reg1">Зарегистрироваться</button>
+        <button onclick="openLog()" class="btn-reg2">Авторизоваться</button>
+        <a href="./error" class="icon-a"><input class="icon-btn" type="button"></a>
+    </div>
+    <div class="popup-reg">
+        <div class="header-secttion1">
+            <button onclick="closeReg()" class="btn-popup1">Закрыть</button>
+        </div>
+        <div class="formbox register">
+            <form action="" method="post">
+                <h2>Регистрация</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bx-log-in-circle' ></i>
+                    </span>
+                    <input placeholder="" name="login" type="text" required>
+                    <label for="">Логин</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-phone'></i>
+                    </span>
+                    <input placeholder="" name="login" type="text" required>
+                    <label for="">Номер телефона</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-rename'></i>
+                    </span>
+                    <input placeholder="" name="login" type="text" required>
+                    <label for="">ФИО</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                            <i class='bx bx-envelope' ></i>
+                    </span>
+                    <input placeholder="" name="email" type="text" required>
+                    <label for="">Почта</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                            <i class='bx bxs-lock-alt' ></i>
+                    </span>
+                    <input placeholder="" name="pass" type="password" required>
+                    <label for="">Пароль</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                            <i class='bx bxs-lock-alt' ></i>
+                    </span>
+                    <input placeholder="" name="repeatpass" type="password" required>
+                    <label for="">Повторите пароль</label>
+                </div>
+                <button type="submit" class="btn">Зарегистрироваться</button>
+                <div class="create-account">
+                    <p>Allredy have an Account? <a href="" class="Login-link"> Sign In</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="popup-log">
+        <div class="header-secttion1">
+            <button onclick="closeLog()" class="btn-popup1">Закрыть</button>
+        </div>
+        <div class="formbox login">
+            <form action="" method="post">
+                <h2>Авторизация</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bx-log-in-circle' ></i>
+                    </span>
+                    <input class="input-login" placeholder="" name="login" type="text" required>
+                    <label for="">Логин</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock-alt' ></i>
+                    </span>
+                    <input class="input-login" placeholder="" name="pass" type="password" required>
+                    <label for="">Пароль</label>
+                </div>
+                <button type="submit" class="btn">Авторизоваться</button>
+                <div class="create-account">
+                    <p>Create an Account? <a href="./register.php" class="register-link"> Sign Up</a></p>
+                </div>
+            </form>
+    </div>
+
+    <script src="./js/mune.js"></script>
+</body>
+</html> 

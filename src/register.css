@@ -1,0 +1,259 @@
+ 
+.popup-reg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 800px;  
+    backdrop-filter: blur(10px);
+    border: 1px solid #fff;
+    opacity: 1;
+    z-index: 9999;
+    display: none;
+    border-radius: 20px;
+    border: 3px solid #000;
+}
+
+.popup-log {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;  
+    backdrop-filter: blur(10px);
+    border: 1px solid #fff;
+    opacity: 1;
+    z-index: 9999;
+    display: none;
+    border-radius: 20px;
+    border: 3px solid #000;
+}
+
+
+.header-secttion { 
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 580px 80px;
+    gap: 300px;
+}
+
+.header-secttion1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 280px 80px;
+}
+
+.btn-popup {
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    font-weight: 600;
+}
+
+.btn-popup1 {
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+
+.img-box-popup {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding-left: 100px;
+    column-gap: 200px;
+}
+
+.img-popup1 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img-popup2 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.title-popup {
+    font-size: 40px;
+}
+
+.text-popup {
+    font-size: 18px;
+}
+
+.text-box-popup {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subtitle-popup {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.reg-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.popup-reg .formbox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.popup-log .formbox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.formbox h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.formbox .input-box {
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid #000;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+    color: #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    transition: .3s ease;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+
+.input-box input:focus ~ label, 
+.input-box input:valid ~ label {
+    top: -5px;
+    color: red;
+    font-weight: 600;
+}
+
+.remmember-password {
+    font-size: 14px;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+.create-account {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 25px;
+}
+
+.create-account p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.create-account p a:hover {
+    color: red;
+    font-weight: 600;
+}
+
+.header.reg {
+    height: 100px;
+    margin: auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 600px 620px 300px 300px 100px;
+    grid-template-areas: 
+    "w1 w2 w3 w4 w5"
+    ;
+    gap: 20px;
+}
+
+.title-header {
+    padding-left: 30px;
+    font-size: 32px;
+    color: #000;
+}
+
+.footer-body {
+    height: 100px;
+    background-color: #fff;
+}
+
+.footer-title-body {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.input-login {
+    padding-left: 20px;
+}
+
+.icon-btn {
+    grid-area: w5;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: none;
+    background: url(./icons/user-circle-solid-240.png) no-repeat;
+    background-size: auto 100%;
+}
+
+.icon-a {
+    grid-area: w5;
+}
