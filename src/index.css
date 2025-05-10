@@ -264,8 +264,6 @@ body {
 
 .main-title {
     padding-top: 50px;
-    display: grid;
-    grid-template-rows: 320px 1px 200px;
 }
 
 .title1 {
@@ -638,4 +636,24 @@ body {
 
 .text-decor__footer {
     text-decoration: none;
+}
+
+.line__home-page-valenta {
+    margin-top: 100px;
+}
+
+.title1__valenta {
+    font-size: 62px;
+    line-height: 135%;
+    margin: auto;
+    height: 160px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.text-valenta {
+    color: #fff;
+    padding-left: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
