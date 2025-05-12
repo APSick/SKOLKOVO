@@ -25,8 +25,8 @@ body {
         "q3 q4"
         "q5 q6"
         "q7 q8"
+        "q9 q10"
     ;
-    row-gap: 100px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -257,7 +257,7 @@ body {
 
 .home_section {
     grid-area: q2;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     z-index: 10;
 }
@@ -273,10 +273,10 @@ body {
     height: 160px;
     color: #fff;
     font-weight: 600;
-    padding-bottom: 50px;
 }
 
 .title2 {
+    padding-top: 160px;
     font-size: 28px;
     line-height: 135%;
     margin: auto;
@@ -286,6 +286,7 @@ body {
 }
 
 .title-shell {
+    padding-top: 100px;
     width: 1350px;
     padding-left: 300px;
     height: 200px;
@@ -294,15 +295,15 @@ body {
 .line {
     height: 1px;
     background-color: #fff;
-    width: 1400px;
+    width: 1300px;
     margin-left: 300px;
     margin-top: 50px;
 }
 
 .subtitle-shell {
     display: grid;
-    grid-template-columns: 270px 270px 270px 270px;
-    padding-left: 300px;
+    grid-template-columns: 250px 250px;
+    padding-left: 700px;
     padding-top: 50px;
     column-gap: 100px;
     row-gap: 20px;
@@ -316,8 +317,7 @@ body {
 
 /*7 кнопок и попапы на главной странице под линией НАЧАЛО*/
 .btn_2_subtitle-shell {
-    margin-top: 25px;
-    width: 270px;
+    width: 250px;
     height: 100px;
     border: none;
     background-size: cover;
@@ -483,7 +483,7 @@ body {
 }
 
 .interview_section {
-    grid-area: q4;
+    grid-area: q6;
     height: 120vh;
     width: 100%;
     z-index: 10;
@@ -573,13 +573,13 @@ body {
 }
 
 .ffff {
-    grid-area: q6;
+    grid-area: q8;
     height: 100vh;
     z-index: 10;
 }
 
 .footer-home-page {
-    grid-area: q8;
+    grid-area: q10;
     z-index: 10;
     height: 55vh;
 }
@@ -665,3 +665,55 @@ body {
     font-weight: 100;
     color: #bfbfbf;
 }
+
+/*СЕКЦИЯ О КОМПАНИИ НАЧАЛО*/
+.about-the-company__section {
+    grid-area: q4;
+    z-index: 10;
+}
+
+.line__about-the-company {
+    max-width: 1200px;
+}
+
+.header-box-title__webctudio {
+    display: grid;
+    grid-template-columns: 200px 700px;
+    gap: 200px;
+    padding-left: 300px;
+}
+
+.text__webstudio {
+    color: #bfbfbf;
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+.title__webstudio {
+    color: #fff;
+    font-size: 32px;
+    line-height: 150%;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.header-box-subtitle__webstudio {
+    padding-left: 700px;
+    width: 600px;
+}
+
+.subtitle__webstudio {
+    color: #bfbfbf;
+    text-align: left;
+}
+
+.box__btn_2_subtitle-shell {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.bx-subtitle-shell {
+    color: #fff;
+    font-size: 100px;
+}
+/*СЕКЦИЯ О КОМПАНИИ КОНЕЦ*/
