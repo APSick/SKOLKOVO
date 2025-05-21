@@ -13,13 +13,14 @@
 
 body {
     margin: auto;
+    background-color: #02333c;
 }
 
 .main_section {
     background-color: #02333c;
     margin: auto;
     display: grid;
-    grid-template-columns: 80px auto;
+    grid-template-columns: auto;
     grid-template-areas:
         "q1 q2"
         "q3 q4"
@@ -286,7 +287,7 @@ body {
 }
 
 .title-shell {
-    padding-top: 100px;
+    padding-top: 12%;
     width: 1350px;
     padding-left: 300px;
     height: 200px;
@@ -484,7 +485,7 @@ body {
 
 .interview_section {
     grid-area: q6;
-    height: 120vh;
+    height: 110vh;
     width: 100%;
     z-index: 10;
 }
@@ -574,14 +575,13 @@ body {
 
 .ffff {
     grid-area: q8;
-    height: 100vh;
     z-index: 10;
 }
 
 .footer-home-page {
     grid-area: q10;
     z-index: 10;
-    height: 55vh;
+    max-height: 550px
 }
 
 .video-home_section {

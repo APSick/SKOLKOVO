@@ -1,0 +1,231 @@
+@media (max-width: 1200px) {
+
+    * {
+        max-width: 1200px;
+    }
+
+    .video-home_section{
+        width: 240%;
+    }
+
+    .title-shell {
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+    }
+
+    .line {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .header-box-title__webctudio {
+        padding-left: 10%;
+        grid-template-columns: auto auto;
+        gap: 100px;
+        padding-right: 10%;
+    }
+
+    .header-box-subtitle__webstudio {
+        padding-left: 24%;
+        width: 30%;
+    }
+
+    .subtitle-shell {
+        grid-template-columns: auto auto;
+        padding-left: 24%;
+        padding-right: 10%;
+    }
+
+    .btn_2_subtitle-shell {
+        width: 100%;
+        
+    }
+    
+    .header-box__interview {
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+        column-gap: 20%;
+        grid-template-columns: auto auto;
+    }
+    
+    .header-title__interview  {
+        width: auto;
+    }
+
+    .header-title-bottom__interview {
+        width: auto;
+    }
+
+    .main__interview {
+        grid-template-columns: 200px auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        column-gap: 20%;
+    }
+
+    .vidoe-box__interview {
+        width: 100%;
+    }
+
+    .name-main__interview {
+        max-width: 200px;
+        padding-bottom: 0;
+        grid-template-rows: auto;
+    }
+
+    .name-item__interview {
+        padding-bottom: 20px;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    .interview_section {
+        height: auto;
+    }
+
+    .main-box__footer-home-page  {
+        grid-template-columns: auto auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .box-right-info__footer-home-page {
+        grid-template-columns: auto auto auto;
+        column-gap: 40px;
+    }
+
+    .box-left-info__footer-home-page {
+    padding-left: 0px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    
+    .video-home_section{
+        width: 360%;
+    }
+
+    .title1 {
+        font-size: 32px;
+    }
+
+    .title2 {
+        padding-top: 40px;
+        font-size: 18px;
+    }
+
+    .title-shell {
+        height: 80px;
+        max-width: 560px;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .header-box-title__webctudio {
+        gap: 10%;
+    }
+
+    .title__webstudio  {
+        font-size: 14px;
+    }
+
+    .header-box-subtitle__webstudio {
+        padding-left: 36%;
+        width: 52%;
+        font-size: 12px;
+    }
+
+    .text__webstudio {
+        font-size: 14px;
+    }
+
+    .subtitle-shell {
+        padding-left: 36%;
+        column-gap: 5%;
+        row-gap: 5%;
+    }
+
+    .btn_2_subtitle-shell {
+        font-size: 14px;
+        height: 60px;
+    }  
+
+    .line__interview {
+        margin-top: 100px;
+    }
+
+    .about-the-company__section {
+        height: auto    ;
+    }
+
+    .header-box__interview {
+        column-gap: 20%;
+        padding-top: 0;
+    }
+
+    .header-subtitle__interview {
+        font-size: 14px;
+    }
+
+    .header-title__interview {
+        font-size: 14px;
+    }
+
+    .header-title-bottom__interview {
+        font-size: 14px;
+    }
+
+    .name-item__interview {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+
+    .name-main__interview {
+        max-width: 100px;
+    }
+
+    .main__interview {
+        grid-template-columns: 100px auto;
+        padding-top: 40px;
+        column-gap: 15%;
+    }
+
+    .vidoe-box__interview {
+        height: 160px;
+    }
+
+    .title__footer-home-page {
+        font-size: 14px;
+    }
+
+    .right-title__footer-hame-page {
+        font-size: 14px;
+    }
+
+    .box-right-info__footer-home-page {
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+    }
+
+    .line__interview {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .links__footer-home-page {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+
+    .home_section {
+    
+    }
+
+    .line {
+        margin-top: 80px;
+    }
+}
