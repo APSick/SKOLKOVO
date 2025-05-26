@@ -557,7 +557,6 @@ body {
 .name-main__interview {
     display: grid;
     grid-template-rows: 75px 75px 75px 75px 75px;
-    padding-bottom: 120px;
 }
 
 .name-item__interview {
@@ -566,11 +565,50 @@ body {
     font-weight: 300;
 }
 
-.vidoe-box__interview {
+.video-box__interview {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+
+.slider-project {
     width: 700px;
     height: 400px;
     overflow: hidden;
-    background-color: #000;
+}
+
+.img-project {
+    display: flex;
+    transition: all 1s;
+}
+
+.img-item {
+    min-width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.button1 {
+    height: 50px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 50px;
+}
+
+.button2 {
+    height: 50px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 50px;
+}
+
+.btn-box {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .ffff {
@@ -606,7 +644,7 @@ body {
 .title__footer-home-page {
     color: #fff;
     font-size: 24px;
-
+    padding-right: 5%;
 }
 
 .box-left-info__footer-home-page {

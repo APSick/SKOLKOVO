@@ -65,7 +65,7 @@
         column-gap: 20%;
     }
 
-    .vidoe-box__interview {
+    .video__interview {
         width: 100%;
     }
 
@@ -101,7 +101,7 @@
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 500px) {
 
     
     .video-home_section{
@@ -194,7 +194,7 @@
         column-gap: 15%;
     }
 
-    .vidoe-box__interview {
+    .video__interview {
         height: 160px;
     }
 
